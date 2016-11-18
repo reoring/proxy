@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  proxy:
+    build: .
+    image: reoring/proxy
+    ports:
+      - "8081:8081"
